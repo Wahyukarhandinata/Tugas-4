@@ -1,0 +1,42 @@
+a = [[1, 2, 3], 
+     [4, 5, 6], 
+     [1, 2, 3]]
+
+b = [[4, 5, 6], 
+     [1, 2, 3], 
+     [2, 4, 5]]
+
+baris_a = len(a)
+kolom_a = len(a[0])
+
+baris_b = len(b)
+kolom_b = len (b[0])
+
+print(a)
+print(f"Baris matriks a adalah: {baris_a}")
+print(f"Kolom matriks a adalah: {kolom_a}")
+
+print(b)
+print(f"Baris matriks b adalah: {baris_b}")
+print(f"Kolom matriks b adalah: {kolom_b}")
+
+if(kolom_a != baris_b):
+    print("matriks a dan b tidak dapat dikalikan")
+
+else:
+    print('''
+matriks a dan b dapat dikalikan''')
+
+
+
+
+PS C:\Users\toshiba> & C:/Users/toshiba/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/toshiba/matriks.py
+[[1, 2, 3], [4, 5, 6], [1, 2, 3]]
+Baris matriks a adalah: 3        
+Kolom matriks a adalah: 3        
+[[4, 5, 6], [1, 2, 3], [2, 4, 5]]
+Baris matriks b adalah: 3        
+Kolom matriks b adalah: 3        
+
+matriks a dan b dapat dikalikan  
+PS C:\Users\toshiba>
